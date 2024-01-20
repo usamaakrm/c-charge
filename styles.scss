@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'assets/scss/fonts';
+@import 'assets/scss/variables';
+@import 'assets/scss/utilities';
+@import '~bootstrap/scss/bootstrap';
+@import 'assets/scss/reboot';
+@import 'assets/scss/all';
+@import "../node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
+@import "../node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.theme.default";
+
+.header-text {
+  font-size: 40px;
+  color: #fff;
+  font-family: 'poppins-bold';
+}
+
+.header-p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  font-family: 'poppins-medium';
+  line-height: 166%;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #050302;
+  overflow-x: hidden;
+}
+
+a {
+  color: #fff!important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .header-text {
+    font-size: 30px !important;
+    padding: 20px 10px;
+    text-align: left;
+  }
+
+  .header-p {
+    margin-bottom: 10px;
+  }
+
+
+}
+
+.h-text {
+  margin-top: 100px;
+}
